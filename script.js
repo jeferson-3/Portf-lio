@@ -5,3 +5,8 @@ $(document).ready ( () =>{
   });
 
 });
+
+$('.bunt-menu').click( () => {
+  $('.naveBar .menu').toggleClass("active");
+  $('.bunt-menu i').toggleClass("active");
+});
